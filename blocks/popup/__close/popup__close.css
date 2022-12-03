@@ -9,6 +9,9 @@
   top: 26%;
   right: 30%;
   transition: opacity 0.2s ease;
+  background-image: url(../../../images/Close\ Icon.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .popup__close:hover {
