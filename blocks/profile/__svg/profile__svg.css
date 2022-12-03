@@ -1,0 +1,7 @@
+@media screen and (max-width: 506px) {
+  .profile__svg {
+    width: 7.5px;
+    height: 7.5px;
+    margin: 4.5px;
+  }
+}
