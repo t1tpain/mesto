@@ -1,5 +1,5 @@
 .elements__card-main-like {
-  width: 22px;
+  min-width: 22px;
   height: 19px;
   margin: auto 0;
   padding: 0;
