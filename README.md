@@ -69,4 +69,4 @@ formElement.addEventListener('submit', handleFormSubmit);
 
 Кодировка документа - ```charset="UTF-8"```.
 
-Ссылка на сайт - https://t1tpain.github.io/russian-travel/
+Ссылка на сайт - https://t1tpain.github.io/mesto/
