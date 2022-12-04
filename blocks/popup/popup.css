@@ -9,6 +9,6 @@
   display: none;
 }
 
-.popup.active {
+.popup_opened {
   display: block;
 }

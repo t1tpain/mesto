@@ -6,8 +6,8 @@
   padding: 0;
   border: none;
   position: absolute;
-  top: 26%;
-  right: 30%;
+  top: -12.5%;
+  right: -9.5%;
   transition: opacity 0.2s ease;
   background-image: url(../../../images/Close\ Icon.svg);
   background-repeat: no-repeat;
@@ -20,6 +20,10 @@
 
 @media screen and (max-width: 506px) {
   .popup__close {
-    right: 6%;
+    width: 20px;
+    height: 20px;
+    right: 0%;
+    top: -11%;
+    background-image: url(../../../images/Close\ Icon\ mini.svg);
   }
 }

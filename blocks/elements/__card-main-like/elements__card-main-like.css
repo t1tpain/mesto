@@ -15,11 +15,3 @@
 .elements__card-main-like:hover {
   opacity: .5;
 }
-
-.elements__card-main-like.activated {
-  width: 22px;
-  height: 19px;
-  background-image: url(../../../../images/blackhurt.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}

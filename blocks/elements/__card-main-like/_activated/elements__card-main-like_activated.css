@@ -1,0 +1,8 @@
+.elements__card-main-like_activated {
+  width: 22px;
+  height: 19px;
+  background-image: url(../../../../images/blackhurt.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+}
