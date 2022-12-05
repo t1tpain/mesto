@@ -10,12 +10,14 @@ let profileJob = document.querySelector('#profileJob');
 openEdit.addEventListener('click', function(evt) {
   evt.preventDefault();
   popUpEdit.classList.add('popup_opened');
-})
+  nameInput.value = profileName.textContent;
+  jobInput.value = profileJob.textContent;
+});
 
 closeEdit.addEventListener('click', function(evt) {
   evt.preventDefault();
   popUpEdit.classList.remove('popup_opened');
-})
+});
 
 function handleFormSubmit (evt) {
   evt.preventDefault();
