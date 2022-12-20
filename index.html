@@ -21,62 +21,21 @@
           </div>
           <p id="profileJob" class="profile__text">Исследователь океана</p>
         </div>
-        <button type="button" class="profile__add"></button>
+        <button type="button" id="addButton" class="profile__add"></button>
       </section>
       <section class="elements">
         <ul class="elements__list">
-          <li class="elements__card">
-            <img src="./images/gr1.jpg" alt="Карачаевск" class="elements__card-image">
-            <div class="elements__card-main">
-              <h2 class="elements__card-main-title">Карачаевск</h2>
-              <button type="button" class="elements__card-main-like"></button>
-            </div>
-          </li>
-          <li class="elements__card">
-            <img src="./images/gr2.png" alt="Эльбрус" class="elements__card-image">
-            <div class="elements__card-main">
-              <h2 class="elements__card-main-title">Гора Эльбрус</h2>
-              <button type="button" class="elements__card-main-like"></button>
-            </div>
-          </li>
-          <li class="elements__card">
-            <img src="./images/gr3.png" alt="Домбай" class="elements__card-image">
-            <div class="elements__card-main">
-              <h2 class="elements__card-main-title">Домбай</h2>
-              <button type="button" class="elements__card-main-like"></button>
-            </div>
-          </li>
-          <li class="elements__card">
-            <img src="./images/gr4.png" alt="Эльбрус" class="elements__card-image">
-            <div class="elements__card-main">
-              <h2 class="elements__card-main-title">Гора Эльбрус</h2>
-              <button type="button" class="elements__card-main-like"></button>
-            </div>
-          </li>
-          <li class="elements__card">
-            <img src="./images/gr5.png" alt="Домбай" class="elements__card-image">
-            <div class="elements__card-main">
-              <h2 class="elements__card-main-title">Домбай</h2>
-              <button type="button" class="elements__card-main-like"></button>
-            </div>
-          </li>
-          <li class="elements__card">
-            <img src="./images/gr6.png" alt="Карачаевск" class="elements__card-image">
-            <div class="elements__card-main">
-              <h2 class="elements__card-main-title">Карачаево-Черкессия</h2>
-              <button type="button" class="elements__card-main-like"></button>
-            </div>
-          </li>
+
         </ul>
       </section>
     </main>    
     <footer class="footer">
       <p class="footer__main">© 2020 Mesto Russia</p>
     </footer>
-    <div id="popUp" class="popup">
+    <div id="popUpEdit" class="popup">
       <div class="popup__container">
         <h2 class="popup__text">Редактировать профиль</h2>
-        <form id="editForm" name="form1">
+        <form id="editForm" name="formEtid">
           <input id="nameInput" name="fullname" type="text" placeholder="Имя" class="popup__input">
           <input id="jobInput" name="job" type="text" placeholder="О себе" class="popup__input">
           <button class="popup__save" type="submit">Сохранить</button>
@@ -84,6 +43,29 @@
         <button id="closeButton" type="button" class="popup__close"></button>
       </div>
     </div>
+
+    <div id="popUpAdd" class="popup">
+      <div class="popup__container">
+        <h2 class="popup__text">Новое место</h2>
+        <form id="addForm" name="formAdd">
+          <input id="nameAdd" name="nameofpicture" type="text" placeholder="Название" class="popup__input">
+          <input id="linkAdd" name="linkonpicture" type="text" placeholder="Сылка на картинку" class="popup__input">
+          <button id="addNewElement" class="popup__save" type="submit">Создать</button>
+        </form>
+        <button id="closeButtonAdd" type="button" class="popup__close"></button>
+      </div>
+    </div>
+    
+    <div id="popUpImage" class="imgpopup">
+      <div class="imgpopup__container">
+        <div class="imgpopup__wraper">
+          <img class="imgpopup__img" src="./images/Image (2).png" alt="image">
+          <p class="imgpopup__name">Карачаево-Черкессия</p>
+        </div>
+        <button id="closeButtonImg" type="button" class="popup__close"></button>
+      </div>
+    </div>
+
   </div>
   <script src="./scripts/index.js"></script>
 </body>

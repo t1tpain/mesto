@@ -10,6 +10,7 @@
   background-image: url(../../../images/hurt.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  display: block;
 }
 
 .elements__card-main-like:hover {

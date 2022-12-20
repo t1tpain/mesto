@@ -1,8 +1,13 @@
 .elements__card-main-like_activated {
-  width: 22px;
+  min-width: 22px;
   height: 19px;
+  margin: auto 0;
+  padding: 0;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
   background-image: url(../../../../images/blackhurt.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  display: none;
 }
