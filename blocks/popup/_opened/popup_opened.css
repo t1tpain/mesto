@@ -1,6 +1,6 @@
 .popup_opened {
   transform: scale(1);
   opacity: 1;
-  visibility: visible;  
+  visibility: visible;
   background-color: rgba(0, 0, 0, .5);
 }
