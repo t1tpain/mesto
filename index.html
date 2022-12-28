@@ -56,16 +56,26 @@
       </div>
     </div>
     
-    <div id="popUpImage" class="imgpopup popup">
-      <div class="imgpopup__container">
-        <div class="imgpopup__wraper">
-          <img class="imgpopup__img" src="./images/Image (2).png" alt="image">
-          <p class="imgpopup__name">Карачаево-Черкессия</p>
+    <div id="popUpImage" class="popup popup_image">
+      <div class="popup__box">
+        <div class="popup__wraper">
+          <img class="popup__img" src="./images/Image (2).png" alt="image">
+          <p class="popup__name">Карачаево-Черкессия</p>
         </div>
         <button id="closeButtonImg" type="button" class="popup__close"></button>
       </div>
     </div>
 
+    <template id="cardTemplate">
+      <li class="elements__card">
+        <button id="trashButton" type="button" class="elements__card-trash"></button>
+        <img id="cardImage" src='' alt='' class="elements__card-image">
+        <div class="elements__card-main">
+          <h2 class="elements__card-main-title"></h2>
+          <button id="likeButton" type="button" class="elements__card-main-like"></button>
+        </div>
+      </li>
+    </template>
   </div>
   <script src="./scripts/index.js"></script>
 </body>
