@@ -1,4 +1,4 @@
-.elements__card-main-like {
+.element__main-like {
   min-width: 22px;
   height: 19px;
   margin: auto 0;
@@ -13,6 +13,6 @@
   display: block;
 }
 
-.elements__card-main-like:hover {
+.element__main-like:hover {
   opacity: .5;
 }
